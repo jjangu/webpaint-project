@@ -1,0 +1,286 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #c1c1c1;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:visited {
+  color: #ff6760;
+}
+
+a:hover {
+  color: #e1e1e1;
+}
+
+a:active {
+  color: #ff6760;
+}
+
+nav {
+  display: flex;
+}
+
+.wpLogo {
+  display: flex;
+  background: #262626;
+  align-items: center;
+  padding: 0 0 0 50px;
+}
+
+.wpLogo > div {
+  color: #d9d9d9;
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+.navBox {
+  display: flex;
+  flex-direction: row;
+  background: #262626;
+  padding: 50px;
+}
+
+.navBox > div {
+  margin: 0 30px;
+  padding: 0;
+  color: #d9d9d9;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.section1 {
+  height: 396px;
+  background: #2a2a2a;
+  transform-style: preserve-3d;
+}
+.sec1container {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform: translateY(-50%);
+}
+
+.sec1container>h2 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  font-family: sans-serif;
+  letter-spacing: .2em;
+}
+
+.sec1container>p {
+  color: #d9d9d9;
+  font-family: helvetica;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.sec1container > a {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #ff6760;
+  width: 178px;
+  padding: 16px 10px;
+  border-radius: 5px;
+}
+
+.section2 {
+  height: 369px;
+  width: auto;
+  background: #eee;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.utilities {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  max-height: 278px;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: .7rem;
+}
+.utilItem {
+  align-self: flex-end;
+}
+
+.utilItem > h3 {
+  margin: 31px 0 20px 0; /*94*/
+  padding: 0;
+}
+
+.utilities > div {
+  height: auto;
+  width: 220px;
+  margin: 0 41px;
+  font-family: sans-serif;
+  color: #616161;
+}
+
+.utilItem > img {
+  display: block;
+  margin: auto;
+}
+.sec3container {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 1004px;
+}
+.section3 {
+  text-align: center;
+  margin: 0;
+  font-family: sans-serif;
+  color: #616161;
+  font-weight: 100;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section3>h3 {
+  font-size: 1.3rem;
+  font-weight: ;
+  margin: 0 0 26px 0;
+  padding: 0;
+  color: #616161;
+  font-family: sans-serif;
+}
+.section3>p { 
+  margin: 0 0 57px 0;
+}
+
+.section3 ul {
+  margin: 0 0 20px 0;
+  padding: 0;
+  height: auto;
+}
+
+.section3 li {
+  display: inline-block;
+  list-style-type: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: .5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: #ff6760;
+  padding: 13px 20px;
+  border-radius: 5px;
+}
+
+.featuredBox {
+  max-width: 1120px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+}
+
+.featuredBox > div {
+  margin: 5px;
+  padding: 0;
+
+}
+
+.featuredBox img {
+
+}
+
+footer {
+  background: #313131;
+  height: 286px;
+  transform-style: preserve-3d;
+}
+.footercontainer {
+  font-family: sans-serif;
+  color: #bebebe;
+  font-weight: lighter;
+  text-align: center;
+  font-size: .8rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer h3 {
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+  font-size: 1.2rem;
+}
+
+footer ul {
+  margin: 7px;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  font-size: 10px;
+  color: #bebebe;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  display: inline-block;
+  height: 19px;
+  width: auto;
+  margin: 10px 1px;
+  padding: 0;
+}
+
+.icon img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.bottomThing {
+  height: 82px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #888;
+  font-size: .5rem;
+  margin: 0;
+  width: auto;
+  background: #2c2c2c;
+}
