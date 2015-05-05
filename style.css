@@ -33,7 +33,7 @@ a:visited {
 }
 
 a:hover {
-  color: #e1e1e1;
+  color: #fff;
 }
 
 a:active {
@@ -137,6 +137,9 @@ nav {
   padding: 16px 10px;
   border-radius: 5px;
 }
+.portfoliolink:visited {
+  color: #fff;
+}
 
 .section2 {
   height: 369px;
@@ -230,6 +233,10 @@ nav {
   font-size: .75rem;
   font-weight: 500;
 }
+.button:focus {
+  background: #595959;
+  outline: 0;
+}
 
 .section3 li { 
   display: inline-block; /*
@@ -309,6 +316,10 @@ footer li {
   margin: 0 15px;
   padding: 0;
 }
+footer a {
+  display: inline-block;
+  
+}
 footer img {
   margin: 0 5px 0 0;
 }
@@ -321,7 +332,6 @@ footer img {
 }
 
 .icon img {
-  height: 100%;
   border-radius: 50%;
 }
 
