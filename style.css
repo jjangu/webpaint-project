@@ -75,12 +75,12 @@ nav {
 }
 
 .fixed-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  background: #262626;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	background: #262626;
 }
 
 .nav-container {
@@ -177,33 +177,35 @@ nav {
 	height: 1004px;
 	transform-style: preserve-3d;
 	background: #fff;
+	color: #616161;
 }
 
 .section3 h3 {
-  font-size: 2rem;
-  font-weight: ;
-  margin: 0 0 20px 0;
-  padding: 0;
-  color: #616161;
+	font-size: 2rem;
+	font-weight: ;
+	margin: 0 0 20px 0;
+	padding: 0;
+	color: #616161;
 }
 
 .section3 p { 
-  margin: 0 0 60px 0;
-  font-size: 1.34rem;
+	margin: 0 0 60px 0;
+	font-size: 1.34rem;
+	font-weight: 100;
 }
 
 .section3 ul {
- 	margin: 0 0 20px 0;
+	margin: 0 0 20px 0;
 }
 
 .section3 li {
 	display: inline-block;
 }
 .button {
-	margin: 0;
-	padding: 13px 20px;
+	margin: 0 2px;
+	padding: 10px 20px;
 	text-transform: uppercase;
-	border-radius: 6px;
+	border-radius: 5px;
 	box-shadow: none;
 	background: #ff6760;
 	border: none;
@@ -214,8 +216,8 @@ nav {
 }
 
 .button:focus {
-  background: #595959;
-  outline: 0;
+	background: #595959;
+	outline: 0;
 }
 
 .featuredBox {
@@ -251,47 +253,47 @@ footer {
 }
 
 footer h3 {
-  margin: 0 0 15px 0;
-  color: #e0e0e0;
-  font-size: 2rem;
+	margin: 0 0 15px 0;
+	color: #e0e0e0;
+	font-size: 2rem;
 }
 footer p {
-  margin: 0 0 26px 0;
-  color: #bebebe;
-  font-size: 1.3rem;
+	margin: 0 0 26px 0;
+	color: #bebebe;
+	font-size: 1.3rem;
 
 }
 
 footer ul {
-  margin: 0 0 30px 0;
+	margin: 0 0 30px 0;
 }
 
 footer li {
-  display: inline;
-  font-size: 1rem;
-  font-weight: 300;
-  color: #bebebe;
-  margin: 0 15px;
+	display: inline;
+	font-size: 1rem;
+	font-weight: 300;
+	color: #bebebe;
+	margin: 0 15px;
 }
 
 footer a {
-  display: inline-block;
-  
+	display: inline-block;
+
 }
 
 footer img {
-  margin: 0 5px 0 0;
+	margin: 0 5px 0 0;
 }
 
 .icon {
-  display: inline-block;
-  width: auto;
-  margin: 0px 1px;
-  padding: 0;
+	display: inline-block;
+	width: auto;
+	margin: 0px 1px;
+	padding: 0;
 }
 
 .icon img {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .bottomThing {
